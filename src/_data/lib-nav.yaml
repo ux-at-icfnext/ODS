@@ -1,8 +1,8 @@
 nav:
   - title: Styles
-    href: /styles
+    href: /library/styles
   - title: Patterns
-    href: /patterns
+    href: /library/patterns
 
 foot:
   - title: Use ICF Nex+ Library
