@@ -1,6 +1,8 @@
 ---
 layout: layouts/right
-title: Search
+title: Search Widget
+tags: pattern
+summary: Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation
 
 include: "{% include 'patterns/search/search.md' %}"
 search:
