@@ -4,19 +4,48 @@
 {% assign foot = lib-nav.foot %}
 {% endif %}
 
-<footer class="usa-footer">
+<footer class="usa-footer usa-footer--big">
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>
   <div class="usa-footer__primary-section">
-    <nav class="usa-footer__nav" aria-label="Footer navigation">
-      <ul class="grid-row grid-gap">
-        {% for f in foot %}<li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-          <a class="usa-footer__primary-link" href="{{ f.href }}">{{ f.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8">
+          <nav class="usa-footer__nav" aria-label="Footer navigation,,">
+          {% for f in foot %}
+            <div class="grid-row grid-gap-3">
+              <div class="">
+                <section
+                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
+                >
+                  <h4 class="usa-footer__primary-link">{{ f.title }}</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                  {% for sf in f.subnav %}
+                    <li class="usa-footer__secondary-link">
+                      <a href="{{ sf.href }}">{{ sf.title }}</a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+                </section>
+              </div>{% endfor %}
+            </div>
+          </nav>
+        </div>
+        <div class="tablet:grid-col-4">
+          <div class="usa-sign-up">
+            <h3 class="usa-sign-up__heading">Sign up</h3>
+            <form class="usa-form">
+              <label class="usa-label" for="email" id=""
+                >Your email address</label
+              >
+              <input class="usa-input" id="email" name="email" type="email" />
+              <button class="usa-button" type="submit">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="usa-footer__secondary-section">
     <div class="grid-container">

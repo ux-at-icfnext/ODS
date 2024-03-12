@@ -1,6 +1,6 @@
 
 {% if prototype %}
-{% assign foot = nav.foot %}
+{% assign foot = nav-foot.foot %}
 {% else %}
 {% assign foot = lib-nav.foot %}
 {% endif %}
