@@ -1,7 +1,7 @@
 ---
 layout: layouts/right
 title: Header
-tags: pattern
+tags: patterns
 summary:
 
 ---

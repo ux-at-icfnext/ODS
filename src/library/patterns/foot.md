@@ -1,7 +1,7 @@
 ---
 layout: layouts/right
 title: Footer
-tags: pattern
+tags: patterns
 summary:
 
 ---
