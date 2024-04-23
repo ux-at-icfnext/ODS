@@ -1,7 +1,7 @@
 ---
 layout: layouts/base
 ---
-TODO: ADD breadcrumb option
+{% include 'patterns/breadcrumb/breadcrumb.md' %}
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-3">{% include 'patterns/sidenav/sidenav.md' %}</div>
