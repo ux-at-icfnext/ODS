@@ -8,7 +8,7 @@ hero:
     alt: "Welcome"
     text: To the Nex+ Library
   button:
-    href: /about/how-to-use-next/
+    href: /library/about/
     text: Get Started
   link:
     text: Link to more about that priority
@@ -90,6 +90,6 @@ graphics:
 
 <section class="grid-container usa-section">
   <h2>Download this kit and get your library started today.</h2>
-  <p>Check out our <a href="/about/how-to-use-next/">documentation</a> on how to get your library started.</p>
-  <p><a href="/about/how-to-use-next/" class="usa-button usa-button">Get Started</a>
+  <p>Check out our <a href="/library/about//">documentation</a> on how to get your library started.</p>
+  <p><a href="/library/about/" class="usa-button usa-button">Get Started</a>
 </section>
