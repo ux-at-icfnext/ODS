@@ -12,7 +12,7 @@
   <div class="usa-logo">
   {% if settings.sitelogo %}
   <a href="/" title="{{ settings.sitename }}"><img style="" src="{{ settings.sitelogo }}" /></a>
-  {% else%}
+  {% endif %}{% if settings.sitename %}
   <em class="usa-logo__text"><a href="/" title="{{ settings.sitename }}">{{ settings.sitename }}</a></em>
   {% endif %}
   </div>

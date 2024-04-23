@@ -4,7 +4,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
 
 const compilescss = () => {
-    return src(['src/assets/css/styles.scss'])
+    return src(['src/assets/css/*.scss'])
     .pipe(sass
         ({
             includePaths:[

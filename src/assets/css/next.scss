@@ -1,0 +1,7 @@
+/* Header CSS  -- adjustment for logo size */
+
+.usa-logo { width: 100%; display: flex; gap: 10px;}
+.usa-logo img {
+  height: 25px;
+  max-width: auto;
+}
