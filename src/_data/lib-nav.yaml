@@ -3,6 +3,8 @@ nav:
     href: /library/styles
   - title: Patterns
     href: /library/patterns
+  - title: About
+    href: /library/about
 
 foot:
   - title: Use ICF Nex+ Library
