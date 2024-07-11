@@ -1,6 +1,6 @@
 ---
 layout: layouts/right
-title: About the Next Library
+title: About the Library
 tags: about
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: layouts/right
-title: How to Get Nex+
+title: How to Get It
 tags: about
 
 ---
