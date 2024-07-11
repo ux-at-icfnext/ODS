@@ -61,18 +61,30 @@ graphics:
 
 
 <section class="graphic-list usa-section usa-section--dark">
-<div class="grid-container">
-<div class="usa-graphic-list__row grid-row grid-gap" style="row-gap: 100px;">
-{% for card in graphics %}
-<div class="usa-media-block tablet:grid-col-6">
-<img class="usa-media-block__img" src="{{ card.image.src}}">
-<div class="usa-media-block__body">
-<h2 class="usa-graphic-list__heading">{{ card.title }}</h2>
-<p>{{ card.description | markdownify }}</p></div>
-</div>
-{% endfor %}
-</div>
-</div>
+  <div class="grid-container">
+  <ul class="usa-card-group">
+  {% for card in graphics %}
+  <li class="usa-card usa-card--flag flex-1">
+  <div class="usa-card__container" style="background-color: transparent; border: 0;">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">{{ card.title }}</h2>
+      </div>
+      <div class="usa-card__media" style="display: inline;">
+        <div class="usa-card__img" style="background-color: transparent;">
+          <img
+            src="{{ card.image.src }}"
+            alt="{{ card.image.alt }}"
+            style="max-width: 80%; height: auto; object-fit: contain;"
+          />
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>{{ card.description | markdownify }}</p>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+  </div>
 </section>
 
 

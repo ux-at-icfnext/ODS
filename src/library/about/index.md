@@ -1,7 +1,7 @@
 ---
 layout: layouts/right
 title: About the Next Library
-summary:
+tags: about
 
 ---
 ### Pattern Libraries
