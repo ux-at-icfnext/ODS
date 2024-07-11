@@ -1,6 +1,6 @@
 ---
 layout: layouts/right.md
-title: colors
+title: Colors
 tags: styles
 ---
 

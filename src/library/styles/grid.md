@@ -1,6 +1,6 @@
 ---
 layout: layouts/right.md
-title: grid
+title: Grid
 tags: styles
 ---
 

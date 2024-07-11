@@ -1,6 +1,6 @@
 ---
 layout: layouts/right.md
-title: icons
+title: Icons
 tags: styles
 ---
 <style>

@@ -1,6 +1,6 @@
 ---
 layout: layouts/right.md
-title: type
+title: Type
 tags: styles
 ---
 

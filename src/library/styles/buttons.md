@@ -1,6 +1,6 @@
 ---
 layout: layouts/right.md
-title: buttons
+title: Buttons
 tags: styles
 
 default:
