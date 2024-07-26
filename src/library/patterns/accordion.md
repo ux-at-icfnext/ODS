@@ -28,3 +28,4 @@ accordion-sample:
       content: |
         ... the little magic bottle had now had its full effect, and she grew no larger: still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy
 ---
+{% include 'patterns/accordion/accordion.md' %}
